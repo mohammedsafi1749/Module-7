@@ -20,7 +20,20 @@ To write a Python program to check whether a given string is a **palindrome** us
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+
+    def is_palindrome(word):
+        if(word[0] == word[-1]):
+             return True
+        else:
+             return False
+        return is_palindrome(word[0:-1])
+    
+    word = input()
+    if(is_palindrome(word)):
+        print("String is a palindrome")
+    else:
+        print("String is not a palindrome")
+
 
 ## OUTPUT
 
