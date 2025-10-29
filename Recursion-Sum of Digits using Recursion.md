@@ -16,8 +16,16 @@ To write a Python program to calculate the **sum of all digits** in a number usi
 
 ## 💻 PROGRAM:
 
-ADD CODE HERE
+    def sqr(num):
+        if num == 0:
+            return 0;
+        return (num % 10)**2 + sqr(num // 10)
+    
+    num = int(input())
+    print(sqr(num))
 
 ## OUTPUT
+<img width="1057" height="250" alt="image" src="https://github.com/user-attachments/assets/10a2200c-9445-4002-9342-ad158176cdab" />
 
 ## RESULT
+Thus the program executed successfully .
