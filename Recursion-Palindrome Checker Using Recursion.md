@@ -36,6 +36,7 @@ To write a Python program to check whether a given string is a **palindrome** us
 
 
 ## OUTPUT
+<img width="1135" height="343" alt="image" src="https://github.com/user-attachments/assets/ada5b1b6-b741-4765-805c-6653bf35d869" />
 
 ## RESULT
 Thus the program executed successfully .
